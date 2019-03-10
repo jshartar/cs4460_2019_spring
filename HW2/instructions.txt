@@ -1,0 +1,19 @@
+Homework 2: Data Exploration and Analysis
+
+The purpose of this assignment is to provide you with some experience exploring and analyzing data without using an information visualization system. Below is a data set (that can be imported into Excel, or any other data viewer you want to use) about cereals. You should explore and analyze this data using Excel or simply by hand (drawing pictures is fine), but do not use any visualization tools. Also, your should avoid the visualization and charting functionality of Excel for the purpose of this assignment. Your goal here is to perform an exploratory analysis of the data set, to better understand the data set and its characteristics, and to develop insights about the cereal data.
+
+Submission: What you turn in should consist of four things.
+
+	List (bullet list of items) five analytics queries or questions that a person may have about this data set. These would be questions that an analyst examining 	the data might be pondering.
+
+	List (bullet list of items) five “insights”, chunks of knowledge, or deeper questions that you either encountered or gained while exploring the data. An insight 	could be some understanding of the data and its characteristics that is not relatively obvious or intuitive. It is something that most people might not realize 	initially. Note that an insight or knowledge chunk simply may be a deeper question that arose in your mind while exploring the data. And your analysis may not 	have been sufficient to answer the question.
+
+	Write one paragraph about the process you used to do the exploration and analysis. Did you load the data into Excel, work manually, or do both? What did you do 	in Excel? Did you draw pictures? Did you take notes? What did you take notes on? What did you draw? This paragraph should be a general description of you 	analytic workflow.
+
+	Write one paragraph about challenges or problems that you encountered in doing the analysis this way. Did anything limit or frustrate you? If nothing did, 	perhaps there was something that was more difficult than you thought it should be. Nothing is perfect, so you should be able to list some potential issues here. 	So, to sum up, your assignment should have two bullet lists of five items followed by two paragraphs. 
+
+Grading: We will evaluate the quality of the insights you listed and the detail given for the process you went through. We are looking for things that we find interesting or perhaps unexpected. This is subjective. For the second and third parts, we will evaluate if you did what the assignment asked.
+
+Cereals data (xls format)
+
+The data set should be pretty self-explanatory. The Manufacturer is a one letter code with the expected mapping (Q-Quaker Oats, P-Post, G-General Mills, K-Kelloggs, R-Ralston Purina, N-Nabisco) and Type is C (cold) or H (hot).

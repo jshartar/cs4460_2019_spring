@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>visualizations</title>
+</head>
+    
+<body>
+<div>
+	<h1 style="text-align:center">
+        P1, Jordan Shartar
+    </h1>
+    <p>1: Red Single Bar</p>
+    <svg width="400" height="400">
+        <rect width="50" height="250" style="fill:rgb(255,0,0)" x="175" y="75"/>
+    </svg>
+    
+    <p>2: Draw a Bar Chart</p>
+    <svg width="400" height="400">
+        <rect width="50" height="150" style="fill:green;stroke:black;stroke-width:1;" y="250"/>
+        <rect width="50" height="225" style="fill:green;stroke:black;stroke-width:1;" x="50" y="175"/>
+        <rect width="50" height="225" style="fill:green;stroke:black;stroke-width:1;" x="100" y="175"/>
+        <rect width="50" height="300" style="fill:green;stroke:black;stroke-width:1;" x="150" y="100"/>
+        <rect width="50" height="300" style="fill:green;stroke:black;stroke-width:1;" x="200" y="100"/>
+        <rect width="50" height="225" style="fill:green;stroke:black;stroke-width:1;" x="250" y="175"/>
+        <rect width="50" height="225" style="fill:green;stroke:black;stroke-width:1;" x="300" y="175"/>
+        <rect width="50" height="150" style="fill:green;stroke:black;stroke-width:1;" x="350" y="250"/>
+    </svg>
+    
+    <p>3: Draw a Line Chart</p>
+    <svg width="400" height="400">
+        <polyline fill = "none" stroke="black" stroke-width="5" points="
+            0,250
+            50,175
+            100,175
+            150,100
+            200,100
+            250,175
+            300,175
+            350,250"/>
+    </svg>
+    
+    <p>4: Draw a Pie Chart</p>
+    <svg width="400" height="400">
+<!--
+        <circle cx="200" cy="200" r="150" fill="yellow" stroke="black" stroke-width="2" />
+        <line x1="200" y1="200" x2="200" y2="50" fill="none" stroke="black" stroke-width="5" wtroke-linecap="round"/>
+        <line x1="200" y1="200" x2="350" y2="200" fill="none" stroke="black" stroke-width="5" stroke-linecap="round"/>
+-->
+        <path d="M 200 50
+                 L 200 200
+                 L 350 200 
+                 A  150 150 0 1 1 200 50 Z" fill="yellow" stroke="black" stroke-width="3"/>
+        <path d="M 200 50
+                 L 200 200
+                 L 350 200 
+                 A  150 150 0 0 0 200 50 Z" fill="green" stroke="black" stroke-width="3"/>
+    </svg>
+</div>
+
+</body>
+</html>
